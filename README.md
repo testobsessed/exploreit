@@ -17,15 +17,15 @@ In order to display the slides for the class, you need the following software in
 
 1. Clone this repository:
 
-`git clone --recursive https://github.com/testobsessed/exploreit`
+  `git clone --recursive https://github.com/testobsessed/exploreit`
 
 1. Install the dependencies:
 
-`npm install`
+  `npm install`
 
 1. Start the server to display the slides:
 
-`grunt serve`
+  `grunt serve`
 
 1. Browse to [localhost:8000](http://localhost:8000).
 
