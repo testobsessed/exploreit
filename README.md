@@ -1,7 +1,7 @@
 Explore It!
 ===========
 
-This is a classroom training course based on my book published by Pragmatic Bookshelf, Explore It!
+This is a classroom training course based on my book published by Pragmatic Bookshelf, [Explore It!](http://pragprog.com/book/ehxta/explore-it)
 
 # Getting Started
 
