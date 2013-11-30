@@ -14,6 +14,9 @@ But if you really want to know what's going on, here's my intention:
 * I have not yet chosen a license for these notes. Until I do, the contents of this repository (not including the reveal.js submodule) is copyrighted by me, Elisabeth Hendrickson, with all rights reserved.
 * Once I do choose a license, the terms of use for my class will be that in lieu of a licensing fee to use this class, you must provide each of your students with a copy of Explore It! that you purchase direct from the Pragmatic Bookshelf website (so, that is, direct from the publisher, not from a distributor).
 
+If you want to follow along to see what I'm planning to do next, see
+the [project tracker](https://www.pivotaltracker.com/s/projects/966320).
+
 # Displaying the Slides
 
 This slide deck is written in markdown, and this repository allows you to
