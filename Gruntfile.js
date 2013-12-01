@@ -3,6 +3,13 @@ module.exports = function(grunt) {
 	var port = grunt.option('port') || 8000;
 	// Project configuration
 	grunt.initConfig({
+		sass: {
+			main: {
+				files: {
+					'theme/default.css': 'theme/source/default.scss'
+				}
+			}
+		},
 
 		connect: {
 			server: {
@@ -32,10 +39,21 @@ module.exports = function(grunt) {
 			main: {
 				files: [ 'slides/*.md' ],
 				tasks: 'default'
+			},
+			
+			theme: {
+				files: [ 'css/theme/source/*.scss', 'css/theme/template/*.scss' ],
+				tasks: 'themes'
 			}
+			
 		}
 
 	});
+
+	grunt.loadNpmTasks( 'grunt-contrib-sass' );
+	
+	// Theme task
+	grunt.registerTask( 'themes', [ 'sass' ] );
 
 	// Dependencies
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );

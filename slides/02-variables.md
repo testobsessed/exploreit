@@ -1,0 +1,3 @@
+# Variables
+
+They're everywhere.
