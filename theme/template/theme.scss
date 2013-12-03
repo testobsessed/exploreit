@@ -9,11 +9,11 @@ body {
 	background-color: $backgroundColor;
 }
 
+
 .reveal {
 	font-family: $mainFont;
 	font-size: $mainFontSize;
 	font-weight: normal;
-	letter-spacing: -0.02em;
 	color: $mainColor;
 }
 
@@ -39,6 +39,7 @@ body {
 	font-family: $headingFont;
 	line-height: $headingLineHeight;
 	letter-spacing: $headingLetterSpacing;
+	font-size: $headingFontSize;
 
 	text-transform: $headingTextTransform;
 	text-shadow: $headingTextShadow;

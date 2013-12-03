@@ -1,0 +1,9 @@
+Headings: Source Black
+
+Body: Source Ultra Light
+
+Charters: [Architects Daughter](http://www.fontsquirrel.com/fonts/architects-daughter) licensed under the SIL open font license
+
+Code: [Bitstream Vera Sans Mono](http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono)
+
+

@@ -3,6 +3,7 @@ Explore It!
 
 This is a classroom training course based on my book published by Pragmatic Bookshelf, [Explore It!](http://pragprog.com/book/ehxta/explore-it)
 
+
 # What Is This?
 
 Obviously there is not much here yet. 
@@ -123,6 +124,8 @@ This course uses Hakim El Hattab's marvelous presentation framework, [reveal.js]
 
 Reveal.js is copyrighted by
 Hakim El Hattab and redistributed here in accordance with [the licensing terms for reveal.js](https://github.com/hakimel/reveal.js/blob/master/LICENSE).
+
+## Fonts
 
 The design uses open source fonts. See the directory theme/fonts for details.
 The web font files are included in order to ensure that the presentation displays as you expect even if you do not have internet access.

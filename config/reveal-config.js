@@ -7,9 +7,9 @@ Reveal.initialize({
 	progress: true,
 	slideNumber: true,
 	history: true,
-	center: true,
+	center: false,
 
-	theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+	theme: Reveal.getQueryHash().theme, // slides use the custom theme
 	transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
 
 	// Parallax scrolling

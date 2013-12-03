@@ -8,8 +8,6 @@ Version 1.0.0
 
 Released _date goes here_
 
-
 Notes:
 
 # Welcome Instructor!
-
