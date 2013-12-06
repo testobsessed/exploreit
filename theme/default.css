@@ -34,19 +34,11 @@
   font-weight: normal;
   font-style: normal; }
 
-html.first .state-background {
-  background-color: rgba(50, 150, 50, 0.8); }
-
-.column {
-  text-align: center;
-  width: 50%;
-  padding: 10px; }
-
-.column.left {
-  float: left; }
-
-.column.right {
-  float: right; }
+@font-face {
+  font-family: 'Source-black';
+  src: url("/theme/fonts/source/SourceSansPro-Black.ttf.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -72,8 +64,11 @@ body {
   background: #ff5e99;
   text-shadow: none; }
 
+html.first .state-background {
+  background-color: #2b002b; }
+
 /*********************************************
- * HEADERS
+ * HEADERS AND TITLES
  *********************************************/
 .reveal h1,
 .reveal h2,
@@ -92,6 +87,27 @@ body {
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+
+.reveal .title {
+  font-family: "Grundschrift";
+  font-size: 64px; }
+
+.reveal .subtitle {
+  font-family: "Grundschrift";
+  font-size: 56px; }
+
+.reveal .charter {
+  float: none;
+  clear: both;
+  height: 420px;
+  width: 696px;
+  background-image: url("/images/sticky-big.png");
+  background-repeat: no-repeat;
+  font-family: "Grundschrift";
+  font-size: 42px;
+  color: black;
+  padding-top: 40px;
+  margin: auto; }
 
 /*********************************************
  * LINKS
@@ -183,3 +199,17 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+/*********************************************
+ * 2-COLUMN LAYOUT
+ *********************************************/
+.column {
+  text-align: center;
+  width: 50%;
+  padding: 10px; }
+
+.column.left {
+  float: left; }
+
+.column.right {
+  float: right; }

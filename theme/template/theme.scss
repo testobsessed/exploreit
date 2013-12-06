@@ -9,7 +9,6 @@ body {
 	background-color: $backgroundColor;
 }
 
-
 .reveal {
 	font-family: $mainFont;
 	font-size: $mainFontSize;
@@ -23,8 +22,13 @@ body {
 	text-shadow: none;
 }
 
+html.first .state-background {
+  // @include radial-gradient( $titleBackgroundColor , rgba(85,90,95,1) );
+  background-color: $titleBackgroundColor;
+}
+
 /*********************************************
- * HEADERS
+ * HEADERS AND TITLES
  *********************************************/
 
 .reveal h1,
@@ -47,6 +51,30 @@ body {
 
 .reveal h1 {
 	text-shadow: $heading1TextShadow;
+}
+
+.reveal .title {
+  font-family: $titleFont;
+  font-size: $titleFontSize;
+}
+
+.reveal .subtitle {
+  font-family: $subTitleFont;
+  font-size: $subTitleFontSize;
+}
+
+.reveal .charter {
+    float: none;
+    clear: both;
+    height: 420px;
+    width: 696px;
+    background-image: url('/images/sticky-big.png');
+    background-repeat: no-repeat;
+    font-family: $titleFont;
+    font-size: 42px;
+    color: black;
+    padding-top: 40px;
+    margin: auto;
 }
 
 
@@ -166,6 +194,24 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: $linkColor;
+}
+
+/*********************************************
+ * 2-COLUMN LAYOUT
+ *********************************************/
+
+.column {
+  text-align: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.column.left {
+  float: left;
+}
+
+.column.right {
+  float: right;
 }
 
 

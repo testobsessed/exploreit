@@ -9,45 +9,11 @@
 // Default mixins and settings -----------------
 @import "../template/mixins";
 @import "../template/settings";
+@import "../template/fonts";
 // ---------------------------------------------
 
-
-
-// Include theme-specific fonts
-@font-face {
-	font-family: 'Grundschrift';
-	src: url('/theme/fonts/grundschrift/Grundschrift.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'CosmicSansNeueMono';
-	src: url('/theme/fonts/cosmicsansneuemono/CosmicSansNeueMono.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Cabin';
-	src: url('/theme/fonts/cabin/Cabin-Regular.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Source-light';
-	src: url('/theme/fonts/source/SourceSansPro-ExtraLight.ttf.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Source-black';
-	src: url('/theme/fonts/source/SourceSansPro-Black.ttf.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
+$titleBackgroundColor: #2b002b;
+$backgroundColor: #2b2b2b;
 
 // Main text
 $mainFont: 'Source-light', 'sans-serif';
@@ -60,29 +26,19 @@ $headingFontSize: 40px;
 $headingMargin: -20px 0px 100px 0px;
 $headingTextTransform: none;
 
+// Titles
+$titleFont: 'Grundschrift';
+$titleFontSize: 64px;
+$subTitleFont: 'Grundschrift';
+$subTitleFontSize: 56px;
+
+// Charters
+$handwritingFont: 'Grundschrift';
+
 // Background generator
 @mixin bodyBackground() {
 	@include radial-gradient( rgba(28,30,32,1), rgba(85,90,95,1) );
 }
-
-html.first .state-background {
-    background-color: rgba(50,150,50, 0.8);
-}
-
-.column {
-  text-align: center;
-  width: 50%;
-  padding: 10px;
-}
-
-.column.left {
-  float: left;
-}
-
-.column.right {
-  float: right;
-}
-
 
 
 // Theme template ------------------------------

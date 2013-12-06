@@ -1,13 +1,17 @@
-# Explore It!
+<div class="title">
+  Explore It!
+</div>
 
-## A course in exploratory testing
+<div class="subtitle">
+  A course in exploratory testing
+</div>
 
-Authored by Elisabeth Hendrickson
-
-Version 1.0.0
-
-Released _date goes here_
+<div class="attribution-block">
+  <div>Authored by Elisabeth Hendrickson</div>
+  <div>Version 1.0.0</div>
+  <div>Released _date goes here_</div>
+</div>
 
 Notes:
 
-# Welcome Instructor!
+# Welcome Instructor! These notes are for you.
