@@ -1,7 +1,18 @@
-// Include theme-specific fonts
+// All fonts included in the repo
+// Note that while you would normally have heavier weights of the same face
+// with the same font-family name, because Reveal.JS $fontFamily variables
+// do not include weight information, each needs to have a separate name.
+
 @font-face {
 	font-family: 'Grundschrift';
 	src: url('/theme/fonts/grundschrift/Grundschrift.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ArchitectsDaughter';
+	src: url('/theme/fonts/architects-daughter/ArchitectsDaughter.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }

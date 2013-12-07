@@ -6,10 +6,10 @@
   A course in exploratory testing
 </div>
 
-<div class="attribution-block">
-  <div>Authored by Elisabeth Hendrickson</div>
-  <div>Version 1.0.0</div>
-  <div>Released _date goes here_</div>
+<div class="title-block">
+  Authored by Elisabeth Hendrickson</br>
+  Version 1.0.0</br>
+  Released _date goes here_
 </div>
 
 Notes:

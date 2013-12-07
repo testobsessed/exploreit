@@ -11,6 +11,12 @@
   font-style: normal; }
 
 @font-face {
+  font-family: 'ArchitectsDaughter';
+  src: url("/theme/fonts/architects-daughter/ArchitectsDaughter.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'CosmicSansNeueMono';
   src: url("/theme/fonts/cosmicsansneuemono/CosmicSansNeueMono.ttf") format("truetype");
   font-weight: normal;
@@ -65,7 +71,14 @@ body {
   text-shadow: none; }
 
 html.first .state-background {
-  background-color: #2b002b; }
+  background: #05343b;
+  background: -moz-linear-gradient(top, #05343b 0%, #2b2b2b 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #05343b), color-stop(100%, #2b2b2b));
+  background: -webkit-linear-gradient(top, #05343b 0%, #2b2b2b 100%);
+  background: -o-linear-gradient(top, #05343b 0%, #2b2b2b 100%);
+  background: -ms-linear-gradient(top, #05343b 0%, #2b2b2b 100%);
+  background: linear-gradient(top, #05343b 0%, #2b2b2b 100%);
+  background-color: #05343b; }
 
 /*********************************************
  * HEADERS AND TITLES
@@ -89,12 +102,19 @@ html.first .state-background {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
 
 .reveal .title {
-  font-family: "Grundschrift";
-  font-size: 64px; }
+  font-family: "Source-black";
+  font-size: 96px;
+  margin: 50px; }
 
 .reveal .subtitle {
-  font-family: "Grundschrift";
+  font-family: "Source-light";
   font-size: 56px; }
+
+.reveal .title-block {
+  font-family: "Source-light";
+  font-size: 32px;
+  margin: 150px 50px 50px 50px;
+  line-height: 120%; }
 
 .reveal .charter {
   float: none;
@@ -103,8 +123,9 @@ html.first .state-background {
   width: 696px;
   background-image: url("/images/sticky-big.png");
   background-repeat: no-repeat;
-  font-family: "Grundschrift";
-  font-size: 42px;
+  font-family: "ArchitectsDaughter";
+  font-size: 36px;
+  line-height: 180%;
   color: black;
   padding-top: 40px;
   margin: auto; }

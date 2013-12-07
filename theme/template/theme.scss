@@ -23,7 +23,9 @@ body {
 }
 
 html.first .state-background {
-  // @include radial-gradient( $titleBackgroundColor , rgba(85,90,95,1) );
+  //@include bodyBackground();
+  //
+  @include vertical-gradient($titleBackgroundColor, $backgroundColor);
   background-color: $titleBackgroundColor;
 }
 
@@ -56,11 +58,19 @@ html.first .state-background {
 .reveal .title {
   font-family: $titleFont;
   font-size: $titleFontSize;
+  margin: 50px;
 }
 
 .reveal .subtitle {
   font-family: $subTitleFont;
   font-size: $subTitleFontSize;
+}
+
+.reveal .title-block {
+  font-family: $titleBlockFont;
+  font-size: $titleBlockFontSize;
+  margin: 150px 50px 50px 50px;
+  line-height: 120%;
 }
 
 .reveal .charter {
@@ -70,8 +80,9 @@ html.first .state-background {
     width: 696px;
     background-image: url('/images/sticky-big.png');
     background-repeat: no-repeat;
-    font-family: $titleFont;
-    font-size: 42px;
+    font-family: $handwritingFont;
+    font-size: 36px;
+    line-height: 180%;
     color: black;
     padding-top: 40px;
     margin: auto;

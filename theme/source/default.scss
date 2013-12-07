@@ -12,7 +12,7 @@
 @import "../template/fonts";
 // ---------------------------------------------
 
-$titleBackgroundColor: #2b002b;
+$titleBackgroundColor: #05343B;
 $backgroundColor: #2b2b2b;
 
 // Main text
@@ -26,14 +26,16 @@ $headingFontSize: 40px;
 $headingMargin: -20px 0px 100px 0px;
 $headingTextTransform: none;
 
-// Titles
-$titleFont: 'Grundschrift';
-$titleFontSize: 64px;
-$subTitleFont: 'Grundschrift';
+// Title Slides
+$titleFont: 'Source-black';
+$titleFontSize: 96px;
+$subTitleFont: 'Source-light';
 $subTitleFontSize: 56px;
+$titleBlockFont: 'Source-light';
+$titleBlockFontSize: 32px;
 
 // Charters
-$handwritingFont: 'Grundschrift';
+$handwritingFont: 'ArchitectsDaughter';
 
 // Background generator
 @mixin bodyBackground() {
