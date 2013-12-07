@@ -2,13 +2,13 @@
 
 Course content copyright (c) 2013 Elisabeth Hendrickson and released under a dual license: BY-NC-SA Creative Commons 4.0 for non-commercial use; custom license for commercial use.
 
-Reveal.js copyright (C) 2013 Hakim El Hattab, http://hakim.se and released under the MIT license.
+The engine used to display the content, Reveal.js, is copyright (C) 2013 Hakim El Hattab, http://hakim.se. Reveal.js was released under the MIT license and is redistributed here under those terms.
 
 Fonts used in these materials are copyrighted by their respective owners and released under various open source licenses (see the fonts directories for details).
 
 # Dual License
 
-This license file sets forth terms for both non-commercial and commercial use.
+This license file sets forth terms for both non-commercial and commercial use of these course materials.
 
 ## Non-Commercial Use
 
@@ -26,7 +26,7 @@ That means you may use, modify, and re-distribute these materials as long as you
 
 In this context, examples of a commercial offering include (but are not limited to):
 
-* Private classes or study groups for a specific company or other commercial entity (even if the instructor is not being paid to run the class)
+* Private classes or study groups for a company or other commercial entity (even if the instructor is not being paid to run the class)
 * For-pay public classes
 * Workshops at for-pay conferences
 * Study as part of a coaching engagement
@@ -53,8 +53,26 @@ I'll be honest: if you buy direct from my publisher instead of a distributor, I 
 
 For what it's worth, the publisher is probably the best source for bulk orders anyway. If you will be running this class for a large number of participants, you can get a [bulk discount from Pragmatic Bookshelf](http://pragprog.com/frequently-asked-questions/volume-discounts).
 
+### Is it commercial use if I am not being paid?
+
+Maybe. 
+
+The way I defined commercial and non-commercial above, commercial use isn't about whether or not money goes into your pocket, but rather about the audience who is receiving the benefit. 
+
+I want to make it easy for people to share with each other. If you're using these materials for a community thing that is open to the public and free of charge, it's a non-commercial use.
+
+However, consider these cases:
+
+* You are presenting these materials within a corporate setting. You are not being paid as an instructor. However, the audience is still restricted to an exclusive group of people who are being paid to participate.
+
+* You are presenting these materials at a for-pay conference as a non-compensated speaker. However, the audience paid to participate, and the company that is hosting the conference is collecting money as a result of your presentation.
+
+In both those cases you might not be paid, but I do consider it to be a commercial use.
+
+If you are in doubt about whether a specific use case is commercial or non-commercial, you are welcome to contact me at elisabeth at testobsessed dot com.
+
 ### I am giving a conference presentation to 100 people...
-... and want to use an excerpt from these materials. Technically it falls under the commercial use license, but it's just not feasible for me to purchase books for all the audience members. Help?
+**... and want to use an excerpt from these materials. Technically this is a commercial use, but it's just not feasible for me to purchase books for all the audience members. Help?**
 
 If you have a use case that doesn't fit well under these license terms, please feel free to contact me at elisabeth at testobsessed dot com. We can probably work something out.
 
