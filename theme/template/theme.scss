@@ -22,9 +22,7 @@ body {
 	text-shadow: none;
 }
 
-html.first .state-background {
-  //@include bodyBackground();
-  //
+.title-slide .state-background {
   @include vertical-gradient($titleBackgroundColor, $backgroundColor);
   background-color: $titleBackgroundColor;
 }
@@ -58,6 +56,7 @@ html.first .state-background {
 .reveal .title {
   font-family: $titleFont;
   font-size: $titleFontSize;
+  line-height: 100%;
   margin: 50px;
 }
 

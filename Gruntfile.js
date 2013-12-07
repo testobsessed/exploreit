@@ -21,9 +21,13 @@ module.exports = function(grunt) {
                         connect.static(options.base),
                         function (req, res, next) {
                             var fs = require('fs');
-                            if (req.url == '/slides/') {
-                                fs.readdir("slides", function(err, files) { 
-                                    res.end(JSON.stringify(files));
+                            if (req.url.match(/\/slides\//)) {
+                                // console.log("In grunt. Asked for: " + req.url);
+                                directory = req.url.match(/\/(.*)\//)[1]
+                                fs.readdir(directory, function(err, files) {
+                                    var list = JSON.stringify(files);
+                                    // console.log("Replying with: " + list);
+                                    res.end(list);
                                 });
                             } else {
                                 next();
