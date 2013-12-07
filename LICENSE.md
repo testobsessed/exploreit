@@ -39,7 +39,7 @@ You are welcome to use these materials, or a modified version of these materials
 
 Yup. 
 
-Look at this from my perspective: I put years of work into creating this class and you get to use it -- without all the hassle of developing your own curriculum -- for the paltry sum of purchasing a book per student. It's like a licensing fee, but it's one that's super easy for both of us to deal with.
+Look at this from my perspective: I put years of work into creating this class and you get to use it--without all the hassle of developing your own curriculum--for the paltry sum of purchasing a book per student. It's like a licensing fee, but it's one that's super easy for both of us to deal with.
 
 If it bothers you to buy an unneeded book, here are some options:
 
@@ -47,13 +47,14 @@ If it bothers you to buy an unneeded book, here are some options:
 * You could offer the additional copy to the student and allow them to decide what to do with it. 
 * You could gift the additional copy to someone else.
 
-### Why do you require purchasing Explore It! direct from the publisher instead of through some other channel?
+### Why do you require purchasing Explore It! direct from the publisher?
 
 I'll be honest: if you buy direct from my publisher instead of a distributor, I get a higher percentage of the sale. The royalties I receive from book sales enable me to justify the effort required to publish these materials for your use.
 
 For what it's worth, the publisher is probably the best source for bulk orders anyway. If you will be running this class for a large number of participants, you can get a [bulk discount from Pragmatic Bookshelf](http://pragprog.com/frequently-asked-questions/volume-discounts).
 
-## I am giving a conference presentation to 100 people and want to use an excerpt from these materials. Technically it falls under the commercial use license, but it's just not feasible for me to purchase books for all the audience members. Help?
+### I am giving a conference presentation to 100 people...
+... and want to use an excerpt from these materials. Technically it falls under the commercial use license, but it's just not feasible for me to purchase books for all the audience members. Help?
 
 If you have a use case that doesn't fit well under these license terms, please feel free to contact me at elisabeth at testobsessed dot com. We can probably work something out.
 
