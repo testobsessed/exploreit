@@ -26,7 +26,7 @@ That means you may use, modify, and re-distribute these materials as long as you
 
 In this context, examples of a commercial offering include (but are not limited to):
 
-* Private classes or study groups for a company or other commercial entity (even if the instructor is not being paid to run the class)
+* Private offerings for a company or other commercial entity
 * For-pay public classes
 * Workshops at for-pay conferences
 * Study as part of a coaching engagement
