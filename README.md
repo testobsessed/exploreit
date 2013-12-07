@@ -3,25 +3,17 @@ Explore It!
 
 This is a classroom training course based on my book published by Pragmatic Bookshelf, [Explore It!](http://pragprog.com/book/ehxta/explore-it)
 
+You can see the details of this course in the [syllabus](syllabus.md)
 
-# What Is This?
-
-Obviously there is not much here yet. 
-You're probably better off checking back sometime later.
-
-But if you really want to know what's going on, here's my intention:
-
-* These will be course notes for an open source class based on my book, Explore It!
-* I have not yet chosen a license for these notes. Until I do, the contents of this repository (not including the reveal.js submodule) is copyrighted by me, Elisabeth Hendrickson, with all rights reserved.
-* Once I do choose a license, the terms of use for my class will be that in lieu of a licensing fee to use this class, you must provide each of your students with a copy of Explore It! that you purchase direct from the Pragmatic Bookshelf website (so, that is, direct from the publisher, not from a distributor).
-
+This is a work in progress.
+At the moment there is not much content here.
 If you want to follow along to see what I'm planning to do next, see
 the [project tracker](https://www.pivotaltracker.com/s/projects/966320).
 
 # Displaying the Slides
 
 This slide deck is written in markdown, and this repository allows you to
-display the slides by running a local [Connect server with Grunt](https://github.com/gruntjs/grunt-contrib-connect).
+display the slides by running a [local http server using Grunt and Connect](https://github.com/gruntjs/grunt-contrib-connect).
 
 Alternatively if you have an internet connection you can simply display the slides
 hosted at _location to be determined later_.
@@ -52,18 +44,21 @@ In order to display the slides for the class, you need the following software in
 
 1. Select Enter Presentation Mode from the View menu in Chrome to display the presentation.
 
-## What to Expect
-
 ## Course Notes for Students
 
 These slides are the instructors deck for this course. 
-There are no handouts for students here; you will need to order
-enough copies of [Explore It!](http://pragprog.com/book/ehxta/explore-it)
-from Pragmatic Bookshelf so that each of your students gets their own copy.
+There are no handouts for students here. 
+
+The textbook for this course is [Explore It!](http://pragprog.com/book/ehxta/explore-it)
+from Pragmatic Bookshelf.
+
+You can use this course for both commercial and non-commercial offerings, subject
+to the licensing terms. 
+See the [license file](LICENSE.md) for details.
 
 ## How This Course is Organized
 
-This class is organized into _x_ modules, where each 
+This class is organized into 14 modules, where each 
 module takes 60 - 90 minutes to run.
 
 You could choose to teach this class as 2-3 intense days,
@@ -85,13 +80,11 @@ Whatever you choose, make sure that the target is sufficiently
 rich that you can apply all the techniques and heuristics in
 the labs.
 
-## Anticipated Frequenty Asked Questions (FAQs)
+# Certified Instructors
 
-### Why do you require purchasing Explore It! direct from the publisher instead of through some other channel?
+If you are looking for someone to teach this class, see the [list of certified instructors](instructors.md).
 
-I'm not asking for a licensing fee for this courseware, so the way I get paid for my effort is by selling more books. If you buy direct from my publisher, I get a higher percentage of the sale.
-
-For what it's worth, the publisher is probably the best source for bulk orders anyway. If you will be running this class for a large number of participants, contact them to ask about a bulk discount.
+## Frequenty Asked Questions (FAQs)
 
 ### Why do I have to run a webserver on my computer just to display these slides?
 
@@ -119,6 +112,12 @@ And until I can make it as easy to use this deck as to open a PPT file, I will h
 to run the deck locally, as long as you have an internet connection.
 
 # Acknowledgements
+
+The contents of this course are based on both my book, _Explore It!_, and also
+my exploratory testing class that I offered for years as a trainer and consultant.
+Dale Emery deserves credit for helping me refine that class.
+
+## Reveal.js
 
 This course uses Hakim El Hattab's marvelous presentation framework, [reveal.js](https://github.com/hakimel/reveal.js/), for which I am extremely grateful. The framework is included as a submodule to make it easy to get started while still making it easy for me to keep the framework up to date.
 
